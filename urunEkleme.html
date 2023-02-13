@@ -6,16 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ürün Ekleme</title>
   </head>
-  <body>
-    <h1>Ürün Ekle</h1>
-    <form style="background-color: beige; border: solid 1px; padding: 5px;">
-      <div style="background-color: bisque; margin-bottom: 5px;">
+  <body
+    style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    "
+  >
+    <form
+      method="post"
+      style="
+        background-color: beige;
+        border: solid 1px;
+        padding: 5px;
+        width: 400px;
+      "
+    >
+      <h1>Ürün Ekle</h1>
+      <div style="background-color: bisque; margin-bottom: 5px">
         <label>Ürün Adı:</label>
-        <input type="text" placeholder="Ürün Adını Giriniz" style="display: block;" />
+        <input
+          type="text"
+          placeholder="Ürün Adını Giriniz"
+          style="display: block"
+        />
       </div>
-      <div style="background-color: bisque; margin-bottom: 5px;">
+      <div style="background-color: bisque; margin-bottom: 5px">
         <label>Şifre:</label>
-        <input type="number" placeholder="Fiyatını Giriniz" style="display: block;" />
+        <input
+          type="number"
+          placeholder="Fiyatını Giriniz"
+          style="display: block"
+        />
       </div>
       <input type="submit" value="Ekle" />
     </form>
