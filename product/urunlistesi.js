@@ -2,8 +2,6 @@ const apiUrl = "http://localhost:8080/api/product";
 const newProductPageUrl = "http://127.0.0.1:5500/product/urunEkleme.html";
 
 // List all products
-let pl = document.getElementById("product-list");
-
 fetch(apiUrl)
   .then((response) => response.json())
   .then((data) => {
@@ -46,6 +44,7 @@ fetch(apiUrl)
 
       product.appendChild(row);
 
+      let pl = document.getElementById("product-list");
       pl.appendChild(product);
     });
   });
