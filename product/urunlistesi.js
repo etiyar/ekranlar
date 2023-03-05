@@ -1,7 +1,10 @@
+const apiUrl = "http://localhost:8080/api/product";
+const newProductPageUrl = "http://127.0.0.1:5500/product/urunEkleme.html";
+
 // List all products
 let pl = document.getElementById("product-list");
 
-fetch("http://localhost:8080/api/product")
+fetch(apiUrl)
   .then((response) => response.json())
   .then((data) => {
     data.forEach((item) => {
@@ -52,5 +55,5 @@ let btnNewProductPage = document.getElementById("newProductPage");
 btnNewProductPage.addEventListener("click", redirectToNewProductPage);
 
 function redirectToNewProductPage() {
-  window.location.href = "http://127.0.0.1:5500/product/urunEkleme.html";
+  window.location.href = newProductPageUrl;
 }
