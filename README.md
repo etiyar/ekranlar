@@ -14,4 +14,4 @@
 <h3>Bayi Düzenleme</h3>
 <img src="https://user-images.githubusercontent.com/94081527/221176124-897a66ca-b91a-473f-b7e9-6ea2ba4201f7.png">
 <h3>Bayi Bilgileri</h3>
-<img src="https://user-images.githubusercontent.com/94081527/221176134-9f444743-e3b8-424a-bfc1-1aaa0d036f0d.png">
+<img src="https://github.com/etiyar/ekranlar/blob/main/screenshots/8bayiBilgileri.png?raw=true">
