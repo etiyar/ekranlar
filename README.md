@@ -14,4 +14,8 @@
 <h3>Bayi Düzenleme</h3>
 <img src="https://user-images.githubusercontent.com/94081527/221176124-897a66ca-b91a-473f-b7e9-6ea2ba4201f7.png">
 <h3>Bayi Bilgileri</h3>
-<img src="https://github.com/etiyar/ekranlar/blob/main/screenshots/8bayiBilgileri.png?raw=true">
+<img src="https://user-images.githubusercontent.com/94081527/225735733-0783cbe6-82ca-4049-ad59-b224afa1567a.png">
+<h3>Mal Teslimi Ekranı</h3>
+<img src="https://user-images.githubusercontent.com/94081527/225736343-af000c3b-f285-45d3-841d-590a3a374012.png">
+<h3>10Geçmiş İşlem Ekranı</h3>
+<img src="https://user-images.githubusercontent.com/94081527/225736766-30bc6131-45cc-4bc6-a8cf-bbbfb6f08404.png">
