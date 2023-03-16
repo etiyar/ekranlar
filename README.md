@@ -16,6 +16,6 @@
 <h3>Bayi Bilgileri</h3>
 <img src="https://user-images.githubusercontent.com/94081527/225735733-0783cbe6-82ca-4049-ad59-b224afa1567a.png">
 <h3>Mal Teslimi Ekranı</h3>
-<img src="https://user-images.githubusercontent.com/94081527/225736343-af000c3b-f285-45d3-841d-590a3a374012.png">
+<img src="https://user-images.githubusercontent.com/94081527/225742125-662a7ab6-af39-4f04-9ae1-b3f028c585c5.png">
 <h3>Geçmiş İşlem Ekranı</h3>
-<img src="https://user-images.githubusercontent.com/94081527/225736766-30bc6131-45cc-4bc6-a8cf-bbbfb6f08404.png">
+<img src="https://user-images.githubusercontent.com/94081527/225742257-6e2f1e85-dba7-4650-8757-0b605b088aa2.png">
