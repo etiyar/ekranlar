@@ -9,106 +9,117 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <style>
+      body {
+        font-size: 1.4em; /* veya istediğiniz büyüklükte bir değer */
+      }
+    </style>
 
     <title>Mal Teslimi Ekranı</title>
   </head>
   <body>
     <!-- en dıştaki container -->
     <div class="container" style="padding: 5% 10%">
-      <div>
+      <div class="secim mb-5">
         <div class="row">
-          <div class="col">
-            <div class="dropdown">
-              <button
-                class="btn btn-primary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Ürün Seç
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Bir</a></li>
-                <li><a class="dropdown-item" href="#">İki</a></li>
-                <li><a class="dropdown-item" href="#">Üç</a></li>
-              </ul>
+          <div class="col-9">
+            <div class="row m-2 p-2">
+              <div class="col">
+                <div class="dropdown">
+                  <button
+                    class="btn-lg btn-primary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Ürün Seç
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Bir</a></li>
+                    <li><a class="dropdown-item" href="#">İki</a></li>
+                    <li><a class="dropdown-item" href="#">Üç</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-group-lg" style="max-width: 120px">
+                  <input type="number" class="form-control" step="any" />
+                </div>
+              </div>
             </div>
-            <span class="m-2">Fiyatı : *** ₺</span>
+            <div class="row m-2 p-2">
+              <div class="col d-flex">
+                <span>Fiyatı : *** ₺</span>
+              </div>
+              <div class="col">
+                <span>Toplam Fiyat : *** ₺</span>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center align-items-end">
+            <button class="btn-lg btn-primary mb-3">Ekle</button>
           </div>
         </div>
+      </div>
+      <div class="container sepet border border-2" style="border-radius: 8px">
         <div class="row">
-          <div class="col mt-3">
-            <div class="form-outline">
-              <input type="number" class="form-control" />
-              <label class="form-label"></label>
-            </div>
-          </div>
-          <div class="col d-flex align-items-center mt-2">
-            <span>Toplam Fiyat : *** ₺</span>
-          </div>
-          <div class="col">
-            <div class="container d-flex justify-content-center mt-2">
-              <button class="btn btn-primary">Ekle</button>
-            </div>
-          </div>
-        </div>
-        <div class="container border border-2" style="border-radius: 8px">
-          <div class="row">
-            <div class="col m-3">
-              <div
-                class="container border border-2"
-                style="padding: 8% 3%; border-radius: 8px"
-              >
-                <div class="row">
-                  <div class="col">
-                    <div class="card mb-1">
-                      <div class="card-body">
-                        1 Kilo Çiğköfte 15*26,50 ₺<br />
-                        <div class="col d-flex align-items-center mt-2">
-                          <span>Fiyatı : *** ₺</span>
-                        </div>
+          <div class="col m-3">
+            <div
+              class="container border border-2"
+              style="padding: 8% 3%; border-radius: 8px"
+            >
+              <div class="row">
+                <div class="col">
+                  <div class="card mb-1">
+                    <div class="card-body">
+                      1 Kilo Çiğköfte 15*26,50 ₺<br />
+                      <div class="col d-flex align-items-center mt-2">
+                        <span>Fiyatı : *** ₺</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col mb-1">
-                    <div class="card">
-                      <div class="card-body">
-                        4 Lavaş 4*10 ₺<br />
-                        <div class="col d-flex align-items-center mt-2">
-                          <span>Fiyatı : *** ₺</span>
-                        </div>
+              </div>
+              <div class="row">
+                <div class="col mb-1">
+                  <div class="card">
+                    <div class="card-body">
+                      4 Lavaş 4*10 ₺<br />
+                      <div class="col d-flex align-items-center mt-2">
+                        <span>Fiyatı : *** ₺</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col">
-                    <div class="card">
-                      <div class="card-body">
-                        1 Kilo Acı Sos 1*31,50 ₺<br />
-                        <div class="col d-flex align-items-center mt-2">
-                          <span>Fiyatı : *** ₺</span>
-                        </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      1 Kilo Acı Sos 1*31,50 ₺<br />
+                      <div class="col d-flex align-items-center mt-2">
+                        <span>Fiyatı : *** ₺</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="col m-3">
-              <div class="container text-center" style="padding: 10% 10%">
-                <p>Toplam : 530,00 ₺</p>
-                <p>Ödenen : 230,00 ₺</p>
-                <p>Kalan : 300,00 ₺</p>
-                <hr />
-                <p>Önceki Borç :0,00 ₺</p>
-                <p>Güncel Borç: 230,00 ₺</p>
-                <button class="btn btn-primary">Tamamla</button>
-              </div>
+          <div class="col m-3">
+            <div class="container text-center" style="padding: 10% 10%">
+              <p>Toplam : 530,00 ₺</p>
+              <p>Ödenen : 230,00 ₺</p>
+              <p>Kalan : 300,00 ₺</p>
+              <hr />
+              <p>Önceki Borç :0,00 ₺</p>
+              <p>Güncel Borç: 230,00 ₺</p>
+              <button class="btn-lg btn-primary">Tamamla</button>
             </div>
           </div>
         </div>
