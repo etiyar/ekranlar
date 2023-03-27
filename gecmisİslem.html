@@ -11,7 +11,7 @@
     />
     <style>
       body {
-        font-size: 1.4em;
+        font-size: 1.6em;
       }
     </style>
 
@@ -23,72 +23,36 @@
       class="container"
       style="
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
       "
     >
-      <div class="text-center"><span>24/02/2023 - Ercan </span></div>
+      <div class="text-center"><span id="date">24/02/2023</span> - Ercan</div>
       <div class="container sepet border border-2" style="border-radius: 8px">
         <div class="row">
           <div class="col m-3">
             <div
               class="container border border-2"
               style="padding: 8% 3%; border-radius: 8px"
-            >
-              <div class="row">
-                <div class="col">
-                  <div class="card mb-1">
-                    <div class="card-body">
-                      1 Kilo Çiğköfte 15*26,50 ₺<br />
-                      <div class="col d-flex align-items-center mt-2">
-                        <span>Fiyatı : *** ₺</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col mb-1">
-                  <div class="card">
-                    <div class="card-body">
-                      4 Lavaş 4*10 ₺<br />
-                      <div class="col d-flex align-items-center mt-2">
-                        <span>Fiyatı : *** ₺</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      1 Kilo Acı Sos 1*31,50 ₺<br />
-                      <div class="col d-flex align-items-center mt-2">
-                        <span>Fiyatı : *** ₺</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              id="orderItems"
+            ></div>
           </div>
 
           <div class="col m-3">
             <div class="container text-center" style="padding: 10% 10%">
-              <p>Toplam : 530,00 ₺</p>
-              <p>Ödenen : 230,00 ₺</p>
-              <p>Kalan : 300,00 ₺</p>
+              <p>Toplam : <span id="total"> 530,00 </span> ₺</p>
+              <p>Ödenen : <span id="paid">230,00 </span> ₺</p>
+              <p>Kalan : <span id="remaining">300,00 </span> ₺</p>
               <hr />
-              <p>Önceki Borç :0,00 ₺</p>
-              <p>Güncel Borç: 230,00 ₺</p>
+              <p>Önceki Borç : <span id="previousDebt">0,00 </span> ₺</p>
+              <p>Güncel Borç : <span id="currentDebt">230,00 </span> ₺</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <script src="./gecmisİslem.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
